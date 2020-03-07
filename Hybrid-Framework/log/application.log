@@ -491,3 +491,12 @@
 2020-02-24 18:52:38,024 [main] INFO PMCS - ******** started login*********
 2020-02-24 18:52:42,468 [main] INFO PMCS - ******** Login SuccessFully*********
 2020-02-24 18:52:45,472 [main] INFO PMCS - ********closing browser********
+2020-02-25 14:46:35,583 [main] INFO PMCS - ******** I am a chrome browser*********
+2020-02-25 14:46:51,946 [main] INFO PMCS - ******** Opening URL*********
+2020-02-25 14:46:55,122 [main] INFO PMCS - ******** Providing login details*********
+2020-02-25 14:46:55,527 [main] INFO PMCS - ******** started login*********
+2020-02-25 14:47:24,860 [main] INFO PMCS - ******** Click on logout link*********
+2020-02-25 14:47:33,296 [main] INFO PMCS - ******** Login Passed*********
+2020-02-25 14:50:25,613 [main] INFO PMCS - ******** I am a chrome browser*********
+2020-02-25 14:51:07,338 [main] INFO PMCS - ******** Opening URL*********
+2020-02-25 14:51:09,023 [main] INFO PMCS - ******** I am a chrome browser*********

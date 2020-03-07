@@ -4,11 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Hybrid-Framework</groupId>
 	<artifactId>Hybrid-Framework</artifactId>
-	<version>slf4j-api 1.7.1-SNAPSHOT</version>
+	<version>slf4j-api 1.7.25-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>PMCS-E2E</name>
-	<url>rm -rf ~/.m2/repository/org/slf4j/slf4j-api/1.7.1-SNAPSHOT</url>
+	<url>rm -rf ~/.m2/repository/org/slf4j/slf4j-api/1.7.25-SNAPSHOT</url>
 	<properties>
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>dd-MM-yyyy HH:mm
@@ -61,6 +60,17 @@
 		</plugins>
 	</build>
 	<dependencies>
+	<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>1.7.25</version>
+</dependency>   
+
+<dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-log4j12</artifactId>
+  <version>1.7.25</version>
+</dependency>  
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
@@ -101,16 +111,6 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.17</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -217,16 +217,6 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.11</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.maven.shared</groupId>

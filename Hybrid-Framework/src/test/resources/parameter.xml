@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgParametersSuite" parallel="false">
+  <parameter name="exampleDesc" value="TestNG Parameter Example"></parameter>
+	<test name="TestNgParametersTest">
+		<classes>
+			<class
+				name="com.usa.testNG.TestNgParameterExample" />
+		</classes>
+	</test>
+</suite>

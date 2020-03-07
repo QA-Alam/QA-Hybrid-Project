@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.usa.runner.file.CucumberRunner">
+      <class name="com.usa.testNG.TestNgParameterExample">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature"/>
-          <include name="tearDownClass"/>
+          <include name="t2"/>
+          <include name="t1"/>
         </methods>
-      </class> <!-- com.usa.runner.file.CucumberRunner -->
+      </class> <!-- com.usa.testNG.TestNgParameterExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
